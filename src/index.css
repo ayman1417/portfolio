@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Pos {
+    margin-left: 1000px;
+    top: 10%;
+}
+.ProjectH {
+    height: 38rem /* 384px */;
+}
+
+.P_Text {
+    margin-left: 1000px;
+}
+
+.mbImage {
+    margin-bottom: -2px
+        /* 384px */
+    ;
+}
+
+.mrHome {
+    margin-right: 300px
+        /* 320px */
+    ;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+.wContact {
+    width: 800px;
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-out;
+}

@@ -7,13 +7,38 @@ export const Data = [
 
   },
   {
-    title: "Chat",
-    Descrioption: "Client Server Chat that Exchange massage and Files and Compress them",
-    use : "C# ",
+    title: "Gerold",
+    Descrioption: "This project is focused on practicing HTML , CSS and bootstrap ",
+    use : "HTML , CSS , Bootstrap",
     
-    link: "https://github.com/ayman1417/Clien_Server-Chat",
+    link: "https://github.com/ayman1417/Gerold",
     
   },
+  {
+      title: "Mealify",
+    Descrioption: "on mastering layout techniques. The main areas covered include: Positioning, Float and Display Types and other topics in HTML and CSS the screen, aiming to eat as much food as possible without crashing into walls or itself As the snake consumes food, it grows longer, making the game progressively more challenging The goal is to achieve the highest possible score by surviving as long as you can while navigating the snake through increasingly tight spaces",
+    use : "HTML , CSS ",
+    
+    link: "https://github.com/ayman1417/Mealify",
+  },
+  
+  {
+    title: "Fokir",
+    Descrioption: "•This project is focused on practicing HTML and CSS fundamentals, with an emphasis on mastering layout techniques. The main areas covered include: Positioning, Float and Display Types and other topics in HTML and CSS",
+    use : "HTML , CSS ",
+    
+    link: "https://github.com/ayman1417/Fokir",
+    
+  },
+  {
+    title: "Bakery",
+    Descrioption: "This project is focused on practicing HTML and CSS fundamentals, with an emphasis on mastering layout techniques. The main areas covered include:, Float and Display Types and other topics in HTML and CSS",
+    use : "HTML , CSS",
+    
+    link: "https://github.com/ayman1417/Bakery",
+    
+  },
+  
   {
       title: "Snake Game",
     Descrioption: "snake that moves around the screen, aiming to eat as much food as possible without crashing into walls or itself. As the snake consumes food, it grows longer, making the game progressively more challenging. The goal is to achieve the highest possible score by surviving as long as you can while navigating the snake through increasingly tight spaces.",
@@ -22,3 +47,4 @@ export const Data = [
     link: "https://github.com/ayman1417/Snake-Game",
   },
 ];
+

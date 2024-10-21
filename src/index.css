@@ -2,12 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.mrs {
+    /* -margin-right:100%; */
+
+}
+
+
 .Pos {
     margin-left: 1000px;
     top: 10%;
 }
 .ProjectH {
-    height: 38rem /* 384px */;
+    height:400px /* 384px */;
 }
 
 .P_Text {

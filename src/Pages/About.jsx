@@ -6,8 +6,8 @@ function About() {
   const [touchEdu, SetTouchEdu] = useState(false);
 
   return (
-    <div className="flex justify-center fade-in">
-      <div className="max-w-3xl mt-20">
+    <div className="flex justify-center  pt-32 items-center fade-in">
+      <div className="w-1/2">
         <h1 className="text-6xl pb-4 text-T">About Me</h1>
         <p className="text-slate-50">
           Hello! I'm Ayman Osama, a passionate Front-End Developer based in
@@ -17,7 +17,7 @@ function About() {
         </p>
 
         {/* Flex container to keep headings in the same line */}
-        <div className="flex mb-6">
+        <div className="flex mb-6 justify-between max-lg:flex-col-reverse max-lg:text-center">
           <h1
             className="text-3xl py-3 text-T hover:cursor-pointer"
             onMouseEnter={() => SetTouchEdu(true)}
@@ -27,7 +27,7 @@ function About() {
           </h1>
 
           <h1
-            className="text-3xl py-3 px-40 text-T hover:cursor-pointer"
+            className="text-3xl py-3  text-T hover:cursor-pointer"
             onMouseEnter={() => SetTouchSkills(true)}
             onMouseLeave={() => SetTouchSkills(false)}
           >
@@ -35,12 +35,12 @@ function About() {
           </h1>
 
           {/* Download button */}
-          <div className="mt-3">
+          <div className="mt-3 text-center">
             <a
-              href="https://drive.google.com/file/d/1P91_VryHFp-o67DRPXE9RQuvyg2sICTh/view?usp=drive_link"
-              download="Ayman-Osama-Sayed-CV.pdf"
+              href="https://drive.google.com/file/d/1g4wUJ03Vieu9XYqweaptyZfj_txQXmLW/view?usp=drive_link"
+              download="Ayman Osama Sayed-CV.pdf"
               target="_blank"
-              className="bg-T text-slate-50 py-2 px-4 rounded hover:bg-opacity-80 flex items-center"
+              className="bg-T text-slate-50 py-2 px-4 rounded hover:bg-opacity-80 flex items-center justify-center "
             >
               Download Resume
               <svg
@@ -74,7 +74,7 @@ function About() {
           {touchEdu && (
             <ul className="text-slate-50 list-disc py-1 pl-6 fade-in">
               <li className="pb-2">
-                Faculty of Computers and Informations, Assiut University
+              Bachelor of  Computer Science, Assiut University
               </li>
               <li className="pb-2">10/2020 – 07/2024 </li>
             </ul>

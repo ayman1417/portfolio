@@ -5,7 +5,7 @@ export default function Projects() {
 
 
     return (
-        <section id='projects' className=" overflow-hidden   flex items-center justify-center flex-col  min-w-screen  min-h-screen   text-white bg-black p-10  ">
+        <section id='projects' className=" overflow-hidden pt-28  flex items-center justify-center flex-col  min-w-screen  min-h-screen   text-white bg-black p-10  ">
             <h1 className='text-center text-5xl my-12 mb-10 font-bold bg-gradient-to-r from-main via-main to-text bg-clip-text text-transparent' >Projects</h1>
             <div
 

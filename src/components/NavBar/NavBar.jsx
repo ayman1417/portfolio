@@ -59,11 +59,13 @@ export default function NavBar() {
                         Contact
                     </a>
                 </NavbarItem>
-                <NavbarItem className="flex">
-                    <button   className='border-main hover:bg-main p-2 border-2 rounded-xl font-medium hover:text-black text-main duration-200 cursor-pointer text-medium'>
-                        Download CV
-                    </button>
-                </NavbarItem>
+                <a
+                    target='_blank'
+                    href="https://drive.google.com/file/d/1UQV0DFQiENrhWgJfIkFiu7JK_tDfQUaN/view?usp=drive_link"
+                    className="border-main hover:bg-main p-2 border-2 rounded-xl font-medium hover:text-black text-main duration-200 cursor-pointer text-medium"
+                >
+                    Download CV
+                </a>
             </NavbarContent>
         </Navbar>
     );

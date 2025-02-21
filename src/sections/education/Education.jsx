@@ -23,9 +23,9 @@ export default function Education() {
 
             {/* eduaction */}
             <motion.div
-                className="grid md:grid-cols-2 gap-10 text-center  " data-taos-offset="300">
+                className="grid md:grid-cols-2 gap-10 text-center  ">
                 <motion.div
-                    initial={{ x: "-100%", opacity: 0 }}
+                    initial={{ x: "-40%", opacity: 0 }}
                     whileInView={{
                         x: 0,
                         opacity: 1,
@@ -47,7 +47,7 @@ export default function Education() {
                     </p>
                 </motion.div>
                 <motion.div
-                    initial={{ x: "100%", opacity: 0 }}
+                    initial={{ x: "40%", opacity: 0 }}
                     whileInView={{
                         x: 0,
                         opacity: 1,

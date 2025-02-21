@@ -24,7 +24,7 @@ export default function NavBar() {
                     <AcmeLogo />
                 </a>
             </NavbarBrand>
-            <NavbarContent className="hidden sm:flex gap-4" justify="center">
+            <NavbarContent className="hidden md:flex gap-4" justify="center">
                 <NavbarItem>
                     <a
                         href="#home"

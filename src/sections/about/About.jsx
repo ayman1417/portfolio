@@ -34,7 +34,7 @@ export default function About() {
                     }}
                     exit={{ opacity: 0 }}
                     viewport={{ once: false, amount: 0.2 }}
-                    className=" text-xl m-auto md:w-4/5 text-start leading-loose  ">
+                    className=" text-xl m-auto  md:w-4/5 text-start leading-loose  ">
                     Hello! I'm Ayman Osama, a passionate Front-End Developer based in Egypt. With a keen eye for detail and a love for crafting intuitive, dynamic user interfaces, I specialize in building responsive web applications using React.
                     Whether it's developing interactive components, implementing smooth animations, or ensuring cross-browser compatibility, I always strive to deliver clean, scalable, and maintainable code that enhances user experience.
                 </motion.p>
@@ -64,17 +64,17 @@ export default function About() {
             </div>
 
             <div className="lg:hidden	 grid lg:grid-cols-2 gap-5 p-10   ">
-                <div onMouseEnter={handleTouch} className={` m-auto rounded-3xl w-[500px] h-[500px] border-main relative border-2   duration-250 ${touch ? "rotate-0" : "rotate-[5deg]"} `}>
-                    <img src={ayman1} alt="" className='w-90' />
+                <div onMouseEnter={handleTouch} className={` m-auto rounded-3xl lg:w-[300px] lg:h-[300px] border-main relative border-2   duration-250 ${touch ? "rotate-0" : "rotate-[5deg]"} `}>
+                    <img src={ayman1} alt="" className='w-full' />
                     {!touch &&
-                        <div className="absolute bottom-96 end-16">
-                            <i className="fa-regular fa-message text-7xl text-main text-center relative">
-                                <p className=' text-main text-sm  absolute start-4 top-4'>{msg}</p>
+                        <div className="absolute bottom-[60%] end-[12%] sm:bottom-96 sm:end-16">
+                            <i className="fa-regular fa-message text-5xl text-main text-center relative">
+                                <p className=' text-main text-xs  absolute start-2 top-3'>{msg}</p>
                             </i>
                         </div>
                     }
                 </div>
-                <p className=" text-xl m-auto md:w-4/5 text-start leading-loose  ">
+                <p className=" text-base m-auto   leading-loose   ">
                     Hello! I'm Ayman Osama, a passionate Front-End Developer based in Egypt. With a keen eye for detail and a love for crafting intuitive, dynamic user interfaces, I specialize in building responsive web applications using React.
                     Whether it's developing interactive components, implementing smooth animations, or ensuring cross-browser compatibility, I always strive to deliver clean, scalable, and maintainable code that enhances user experience.
                 </p>

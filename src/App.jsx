@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { HeroUIProvider } from "@heroui/react";
 import './App.css'
 import Home from './sections/home/Home';
-import About from './sections/about/about';
+import About from './sections/about/About';
 import NavBar from './components/NavBar/NavBar';
 import Education from './sections/education/Education';
 import Projects from './sections/projects/Projects';

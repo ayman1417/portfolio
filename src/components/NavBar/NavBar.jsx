@@ -61,7 +61,7 @@ export default function NavBar() {
                 </NavbarItem>
                 <a
                     target='_blank'
-                    href="https://drive.google.com/file/d/1UQV0DFQiENrhWgJfIkFiu7JK_tDfQUaN/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1hIoeFLBfWhsTm2Cs28fqALsrVTFpGACy/view?usp=drive_link"
                     className="border-main hover:bg-main p-2 border-2 rounded-xl font-medium hover:text-black text-main duration-200 cursor-pointer text-center  text-sm md:text-medium"
                 >
                     Download CV
